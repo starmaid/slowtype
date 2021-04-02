@@ -78,7 +78,7 @@ class Slowtype():
             typo = char
         return typo
 
-    def cute_print(self, phrase, role=None, typos=True, typoRate=30):
+    def slow_print(self, phrase, role=None, typos=True, typoRate=30):
         edited = phrase
         typo = False
         pos = 0
@@ -138,14 +138,14 @@ class Slowtype():
 if __name__ == '__main__':
     S = Slowtype('chars.txt',speed=1)
 
-    #S.cute_print(msg, typos=True, typoRate=50)
+    #S.slow_print(msg, typos=True, typoRate=50)
 
     with open('./script.txt','r',encoding='utf-8', errors='ignore') as script:
         fscript = script.readlines()
         prev = None
         for line in fscript:
             if (line == '\n'):
-                S.cute_print('')
+                S.slow_print('')
             else:
                 # REMOVE NEWLINE HERE
                 line = line.strip('\n')
@@ -155,4 +155,4 @@ if __name__ == '__main__':
                     S.hesitate(20)
                     prev = role
 
-                S.cute_print(line.split(': ')[1], role=role, typos=False, typoRate=50)
+                S.slow_print(line.split(': ')[1], role=role, typos=False, typoRate=50)
