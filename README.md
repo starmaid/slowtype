@@ -25,6 +25,7 @@ The `chars.txt` file is basically a csv that defines the color for the character
 | 9 | #000000 | #ff8080 | 1 |
 | 10 | #000000 | #89dc89 | 2 |
 
+Your terminal settings determine the text font and background you will be chroma-keying, and these are fully customizable to you.
 
 There are two primary ways to use this software
 
