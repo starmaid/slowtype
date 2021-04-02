@@ -6,7 +6,9 @@ output from programs that mimics human typing style.
 This program is used to emulate the styles of
 Jon Bois's hit webcomics, 17776 and 20020. 
 This massively decreases video production time,
-especially for content that is already written.
+especially for content that is already written. Jon records himself manually typing the words he wants to appear on screen, which is why he needed the preceeding periods - these held the style for the line he was probably copying by eye from a written script in a different window.
+
+![](./ex2.gif)
 
 Color utilities can also be used for displaying 
 homestuck pesterlog content in a terminal.
