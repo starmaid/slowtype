@@ -1,5 +1,7 @@
 # slowtype.py
 
+![](./ex1.gif)
+
 This python module makes it possible to generate
 output from programs that mimics human typing style.
 
@@ -12,8 +14,6 @@ especially for content that is already written. Jon records himself manually typ
 
 Color utilities can also be used for displaying 
 homestuck pesterlog content in a terminal.
-
-![](./ex1.gif)
 
 ## Usage
 
