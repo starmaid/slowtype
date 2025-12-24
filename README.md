@@ -15,6 +15,12 @@ especially for content that is already written. Jon records himself manually typ
 Color utilities can also be used for displaying 
 homestuck pesterlog content in a terminal.
 
+## Install
+
+```
+pip install -r requirements.txt
+```
+
 ## Usage
 
 The `chars.txt` file is basically a csv that defines the color for the characters. Here are some examples for our protagonists:
